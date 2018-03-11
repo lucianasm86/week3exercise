@@ -6,3 +6,44 @@ h1 {
 }
 
 */
+nav {
+  text-align: center;
+  background-color: #a0a7b2;
+  padding: 20px 0;
+}
+nav ul li {
+  display: inline-block;
+  background-color: #edeff2;
+  padding: 10px 15px;
+  margin: 5px 10px;
+  transition: 0.5s ease;
+}
+nav ul li a {
+  transition: 0.5s ease;
+}
+nav ul li:hover {
+  transform: scale(1.2);
+  background-color: #a0a7b2;
+  border: 2px solid #ffffff;
+}
+nav ul li:hover a {
+  color: #ffffff;
+  text-decoration: none;
+}
+button {
+  background-color: #4286f4;
+  color: #0a3d91;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 25px;
+  margin: 5px;
+  transition: 0.25s ease;
+}
+button:hover {
+    background-color: #0a3d91;
+    color: #ffffff;
+}
+div#buttons {
+text-align: center;
+padding: 50px 0;
+}
